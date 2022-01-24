@@ -14,6 +14,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="22KFtZ1ZN9gjCwtJ40nxtPdSEjX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -125,7 +128,7 @@
       <workItem from="1640046952735" duration="12000" />
       <workItem from="1639657647671" duration="5473000" />
       <workItem from="1639720516809" duration="7879000" />
-      <workItem from="1643027329071" duration="473000" />
+      <workItem from="1643027329071" duration="1110000" />
     </task>
     <servers />
   </component>
@@ -169,6 +172,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="560" y="119" key="CommitChangelistDialog2" timestamp="1643029221572">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="560" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1643029221572" />
     <state width="1489" height="323" key="GridCell.Tab.0.bottom" timestamp="1639748446530">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
