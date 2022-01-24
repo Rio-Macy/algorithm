@@ -28,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/sjt/hash" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -135,11 +135,47 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="119" key="CommitChangelistDialog2" timestamp="1643029221572">
+    <state x="560" y="119" key="CommitChangelistDialog2" timestamp="1643030182289">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="560" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1643029221572" />
+    <state x="560" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1643030182289" />
     <state width="1489" height="323" key="GridCell.Tab.0.bottom" timestamp="1639748446530">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -176,6 +212,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1050@0.0.1920.1050" timestamp="1639580870936" />
+    <state x="768" y="249" key="Vcs.Push.Dialog.v2" timestamp="1643030190175">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="768" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1643030190175" />
     <state x="640" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1640046953488">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
