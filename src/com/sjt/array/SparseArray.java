@@ -12,6 +12,7 @@ public class SparseArray {
         arr[6][4] = 3;
         arr[7][4] = 1;
         arr[8][4] = 3;
+
         int[][] res = SparseArray.toSparse(arr);
 
         for (int i = 0; i < res.length; i++) {
