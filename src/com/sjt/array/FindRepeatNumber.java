@@ -140,6 +140,13 @@ public class FindRepeatNumber {
         return -1;
     }
 
+    /**
+     * 希望当前位置  和 出现元素正好匹配上
+     * 先判断  是否匹配  如果不匹配 进行交换  并且看需要交换的位置  是否存在期望元素
+     * 如果可以 交换之后  继续遍历当前位置   如果不可交换  即为重复元素
+     * @param nums
+     * @return
+     */
     public static int findRepeatNumber4(int[] nums) {
 
         if (nums == null) {
@@ -153,7 +160,7 @@ public class FindRepeatNumber {
             }
             int num = nums[i];
             // 如果要交换的位置，已经有期望值，说明重复
-            if (nums[i] == num) {
+            if (nums[num] == num) {
                 return num;
             }
             int temp = nums[num];
