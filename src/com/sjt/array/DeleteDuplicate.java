@@ -7,5 +7,6 @@ public class DeleteDuplicate {
 
     public static void main(String[] args) {
 
+        System.out.println("String");
     }
 }
