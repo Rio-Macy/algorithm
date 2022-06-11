@@ -1,7 +1,16 @@
 package com.sjt.array;
 
 /**
- *  二维数组转化稀疏数组
+ *  二维数组转化稀疏数组(节省空间)压缩
+ *
+ *  保存原始的行数和列数
+ *  保存非零元素的位置
+ *
+ *  行  列  元素值
+ *  10  10   3
+ *   1  2    1
+ *   3  1    2
+ *   2  2    2
  * @author sujuntao
  */
 public class SparseArray {
@@ -27,6 +36,15 @@ public class SparseArray {
         }
     }
 
+
+    /**
+     *   把普通数组 转化为 稀疏数组
+     *   用 (n+1)*3列的数组  压缩，n代表非零元素的个数
+     *   第一行  存储总行数  总列数  和 非零元素的个数
+     *   接下来每一行  存储  元素的行数  列数 和 自身元素值
+     * @param nums
+     * @return
+     */
     public static int[][] toSparse(int[][] nums) {
 
         if (nums == null) {
