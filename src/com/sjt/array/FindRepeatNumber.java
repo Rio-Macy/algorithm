@@ -28,12 +28,8 @@ public class FindRepeatNumber {
 
     public static void main(String[] args) {
 
-        int[] nums = {2, 1, 1, 0, 2, 1, 3};
-//        int result = FindRepeatNumber.findRepeatNumber(nums);
-//        int result1 = FindRepeatNumber.findRepeatNumber1(nums);
-//        System.out.println(result1);
-//        int result2 = FindRepeatNumber.findRepeatNumber4(nums);
-//        System.out.println(result2);
+        int[] nums = {2, 3, 3, 5, 5, 5, 5};
+
         int result3 = FindRepeatNumber.findRepeatNumber4(nums);
         System.out.println(result3);
     }
@@ -101,12 +97,15 @@ public class FindRepeatNumber {
         int[] ns = new int[nums.length];
         // ns记录nums数组元素出现的个数
         for (int i = 0; i < nums.length; i++) {
+
             int t = nums[i];
             ns[t] += 1;
         }
         // 查找ns数组中大于2的数字
         for (int i = 0; i < nums.length; i++) {
+
             if (ns[nums[i]] >= 2) {
+
                 return nums[i];
             }
         }

@@ -7,7 +7,9 @@ package com.sjt.array;
 public class SparseArray {
 
     public static void main(String[] args) {
+
         int[][] arr = new int[10][10];
+
         arr[2][4] = 1;
         arr[6][4] = 3;
         arr[7][4] = 1;
@@ -16,11 +18,12 @@ public class SparseArray {
         int[][] res = SparseArray.toSparse(arr);
 
         for (int i = 0; i < res.length; i++) {
+
             for (int j = 0; j < 3; j++) {
+
                 System.out.print(res[i][j] + " ");
             }
             System.out.println();
-
         }
     }
 

@@ -1,6 +1,7 @@
 package com.sjt.array;
 
 /**
+ *  DeleteDuplicate 删除重复的数字
  * @author sujuntao
  */
 public class DeleteDuplicate {

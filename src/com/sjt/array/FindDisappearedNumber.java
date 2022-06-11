@@ -4,6 +4,7 @@ import java.util.*;
 
 /**
  * @author sujuntao
+ *  FindDisappearedNumber 找到消失的数字
  * ##### 2、数组中消失的数字
  *
  * https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/
@@ -43,6 +44,7 @@ public class FindDisappearedNumber {
     public static List<Integer> findDisappearedNumbers(int[] nums) {
 
         if (nums == null) {
+
             return null;
         }
 
@@ -50,6 +52,7 @@ public class FindDisappearedNumber {
         Set<Integer> integerSet = new HashSet<>(nums.length);
         // Set去重，存储了没有重复的数组元素
         for (int i = 0; i < nums.length; i++) {
+
             integerSet.add(nums[i]);
         }
         // 判断Set中的不包含的元素，将其存入List中
@@ -78,11 +81,12 @@ public class FindDisappearedNumber {
         List<Integer> integerList = new ArrayList<>(nums.length);
 
         for (int i = 0; i < nums.length; i++) {
+
             int num = Math.abs(nums[i]);
             int index = num - 1;
 
-            // 将对应索引位置的值置为负数， 提前是这个数是整数
             if (nums[index] > 0) {
+                // 将对应索引位置的值置为负数， 提前是这个数是整数
                 nums[index] = -nums[index];
                 System.out.println("索引" + index + "" + Arrays.toString(nums));
             }

@@ -1,11 +1,10 @@
 package com.sjt.array;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
+ *  MajorityNumber 找出数组最多的数字 最多的数
  * @author sujuntao
  */
 public class MajorityNumber {
@@ -24,6 +23,7 @@ public class MajorityNumber {
         }
 
         Map<Integer, Integer> hashMap = new HashMap(nums.length);
+
         for (int i = 0; i < nums.length; i++) {
 
             int num = nums[i];
@@ -34,15 +34,16 @@ public class MajorityNumber {
             }
         }
 
-        int len = nums.length/2;
-//        int[] n = new int[hashMap.size()];
+        int len = nums.length / 2;
         int t = -1;
+
         for(Map.Entry<Integer, Integer> vo: hashMap.entrySet()){
 
             if(vo.getValue() > len){
-              t= (vo.getKey());
+              t = (vo.getKey());
             }
         }
+
         return t;
     }
 
@@ -53,11 +54,11 @@ public class MajorityNumber {
         }
 
         Map<Integer, Integer> hashMap = new HashMap(nums.length);
+
         for (int i = 0; i < nums.length; i++) {
 
             int num = nums[i];
             if (hashMap.containsKey(num)) {
-
 
                 hashMap.put(num, hashMap.get(num)+1);
             }else{
@@ -65,11 +66,11 @@ public class MajorityNumber {
             }
         }
 
-        int len = nums.length/2;
+        int len = nums.length / 2;
         int t = -1;
         for(Map.Entry<Integer, Integer> vo: hashMap.entrySet()){
 
-            System.out.print(vo.getKey());
+            System.out.print(vo.getKey() + " ");
             System.out.println(vo.getValue());
 
             if(vo.getValue() > len){
