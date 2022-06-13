@@ -8,6 +8,7 @@ public class ListNode {
 
     // 数据
     int val;
+
     // 下一个节点的引用
     ListNode next;
 
@@ -18,7 +19,10 @@ public class ListNode {
 
     // 数组 转化成 链表
     public static ListNode arrayToListNode(int[] arr) {
-        if (arr.length == 0) return null;
+        
+        if (arr.length == 0) {
+            return null;
+        }
 
         // 生成链表的根节点
         ListNode root = new ListNode(arr[0]);
